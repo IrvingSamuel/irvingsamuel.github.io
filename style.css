@@ -11,6 +11,7 @@
     padding: 0px;
     
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
   }
   
   .nome {
@@ -45,22 +46,21 @@
     list-style: none;
     padding-left: 0px;
     font-size: 18px;
+    color: rgb(101, 30, 235);
   }
   
   .links_sociais li {
     display: inline-block;
     margin-right: 8px;
+    color: rgb(101, 30, 235);
   }
   
   .links_sociais a {
     text-decoration: none;
     padding: 4px;
+    color: rgb(101, 30, 235);
   }
   
   .links_sociais a:hover {
     background-color: rgba(0, 0, 0, 0.1);
-  }
-  
-  .body {
-    background-color: rgba(3, 137, 173, 0.452);
   }
