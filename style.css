@@ -1,0 +1,66 @@
+.imagem_de_perfil {
+    border-radius: 50%;
+  }
+
+  html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .nome {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+  }
+
+  .separador {
+    
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  
+  .esquerda, .direita {
+    
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .esquerda {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links_sociais {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+  
+  .links_sociais li {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .links_sociais a {
+    text-decoration: none;
+    padding: 4px;
+  }
+  
+  .links_sociais a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .body {
+    background-color: rgba(3, 137, 173, 0.452) 100%);
+  }
