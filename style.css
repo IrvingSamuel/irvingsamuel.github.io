@@ -130,8 +130,16 @@ body{
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-hr.new1{
+hr.new1 {
   border-top: 1px solid black;
   width: 60%;
-  align: left;
+}
+.borda{
+  margin: 20px;
+}
+.thumbnails {
+  background-color: white;
+  border-radius: 20px; 
+  margin: 20px;
+  width: 50%;
 }
